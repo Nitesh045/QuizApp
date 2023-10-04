@@ -1,0 +1,358 @@
+body{
+    background-image: url(../assest/bg.jpg);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.first_page{
+    width: 50%;
+    background-color: white;
+    position: absolute;
+    left: 30%;
+    right: 30%;
+    border-bottom: solid 1px grey;
+    padding-bottom: 30px;
+
+   
+}
+
+
+.img{
+    display: flex;
+    justify-content: center;
+}
+.student{
+    text-align: center;
+    color: rgb(226, 87, 208);
+    border-bottom: solid 1px grey;
+    padding-bottom: 30px;
+   
+}
+.rule_info{
+    padding-left: 20px;
+    border-bottom: solid 1px grey;
+}
+.list-1{
+    border-bottom: solid 1px grey;
+}
+.list-1 , li{
+    padding: 10px;
+    letter-spacing: 0.5px;
+    color: rgb(23, 134, 207);
+    list-style: square;
+    font-family: sans-serif;
+}
+p{
+    opacity: 0.5;
+    color: red;
+}
+h4{
+    color: blue;
+    letter-spacing: 0.8px;
+}
+.name_input{
+    margin-top: 20px;
+    padding-left: 20px;
+    border-bottom: solid 1px grey ;
+    padding-bottom: 20px;
+}
+#userinput{
+  width: 70%;
+  height: 30px;
+  border-radius: 10px;
+ border-color: greenyellow;
+}
+#first_sub{
+    padding: 5px 20px ;
+    cursor: pointer;
+    border-color:aqua;
+    background-color: aqua;
+    font-weight: 500;
+    border-radius: 5px;
+    box-shadow: 3px 2px 3px blue;
+    
+}
+.btn-1{
+   margin-top: 20px;
+   display: flex; 
+   justify-content: center;
+}
+#btn-first_page{
+    padding: 5px 20px ;
+    cursor: pointer;
+    border-color:aqua;
+    background-color: aqua;
+    font-weight: 500;
+    border-radius: 5px;
+    box-shadow: 3px 2px 3px blue;  
+    
+}
+/* first page end here */
+.second_page{
+    width: 50%;
+    background-color: white;
+    position: absolute;
+    left: 30%;
+    right: 30%;
+    top: 30%;
+    border-bottom: solid 1px grey;
+    padding-bottom: 30px;
+    
+
+}
+#student_Name{
+    text-align: center;
+    color: darkred;
+}
+.subject_name-1{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 20px 0px 20px 0px;
+
+}
+#a{
+    padding: 5px 55px;
+    background-color: aqua;
+    border-color: aqua;
+    box-shadow: 2px 3px 3px blue;
+    border-radius: 5px;
+    cursor: pointer;
+}
+#b{
+    padding: 5px 58px;
+    background-color: aqua;
+    border-color: aqua;
+    box-shadow: 2px 3px 3px blue;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+.subject_name-2{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 20px 0px 20px 0px;
+    border-bottom: solid 1px grey;
+    padding-bottom: 30px;
+ 
+}
+#c{
+    padding: 5px 50px;
+    background-color: aqua;
+    border-color: aqua;
+    box-shadow: 2px 3px 3px blue;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#d{
+    padding: 5px 50px;
+    background-color: aqua;
+    border-color: aqua;
+    box-shadow: 2px 3px 3px blue;
+    border-radius: 5px;
+    cursor: pointer;
+}
+#frwd-1{
+    position: absolute;
+    top: 90%;
+    left: 60%;
+
+    padding: 5px 50px;
+    background-color: aqua;
+    border-color: aqua;
+    box-shadow: 2px 3px 3px blue;
+    border-radius: 5px;
+    cursor: pointer;
+}
+#frwd-2{
+    position: absolute;
+    top: 90%;
+    left: 60%;
+
+    padding: 5px 50px;
+    background-color: aqua;
+    border-color: aqua;
+    box-shadow: 2px 3px 3px blue;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+#frwd-3{
+    position: absolute;
+    top: 90%;
+    left: 60%;
+
+    padding: 5px 50px;
+    background-color: aqua;
+    border-color: aqua;
+    box-shadow: 2px 3px 3px blue;
+    border-radius: 5px;
+    cursor: pointer;
+}
+#frwd-4{
+       position: absolute;
+       top: 90%;
+       left: 60%;
+        padding: 5px 50px;
+        background-color: aqua;
+        border-color: aqua;
+        box-shadow: 2px 3px 3px blue;
+        border-radius: 5px;
+        cursor: pointer;
+     }  
+.second_next_page{
+    display: flex;
+    justify-content: end;
+}
+.second_next_page #pre{
+    padding: 5px 50px;
+    margin-right: 20px;
+}
+.second_next_page #frwd{
+    padding: 5px 50px;
+}
+.ques{  /* third div and also question div */
+    width: 50%;
+    background-color: white;
+    position: absolute;
+    left: 30%;
+    right: 30%;
+    border-bottom: solid 1px grey;
+    padding-bottom: 30px;
+    margin-top: 40px;
+    height: 500px;
+
+}
+.upper-ques{
+    display: flex;
+    justify-content:space-between;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+.ques_upper .timer{
+    background-color: aqua;
+    font-size: 25px;
+}
+.ques_upper .score-1{
+    background-color: aqua;
+    font-size: 25px;
+}
+.ques_upper .ques_sub-name{
+    color: darkorange;
+    font-weight: 500;
+    font-size: 25px;
+    text-transform: uppercase;
+}
+.ques-middle{
+    border: solid 1px grey;
+margin: 20px 20px;
+padding-bottom: 20px;
+}
+#ques-count{
+    text-align: center;
+    width: 50px;
+    margin-left: 45%;
+    margin-right: 50%;
+    margin-top: -1.5%;
+    border: solid 1px blue;
+    background-color: blue;
+    color: white;
+    border-radius: 5px;
+    font-weight: 500;
+    font-size: 15px;
+}
+#ques-nub{
+    padding: 10px 20px;
+}
+.ab-1{
+    margin-top: 10px;
+    margin-left: 20px;
+    padding: 4px 5px;
+    border: solid 1px rgb(32, 240, 226);
+    border-radius: 180px;
+    background-color: rgb(211, 239, 183);
+
+}
+.lower{
+    display: flex;
+    justify-content: center;
+}
+.lower #ques-sub{
+    padding: 5px 58px;
+    background-color: aqua;
+    border-color: aqua;
+    box-shadow: 2px 3px 3px blue;
+    border-radius: 5px;
+    cursor: pointer;
+   position: absolute;
+   top: 70%;
+   left: 65%;
+}
+.final{
+    width: 50%;
+    background-color: white;
+    position: absolute;
+    left: 20%;
+    top: 20%;
+    height: 100px;
+    text-align: center;
+    
+    border-bottom: solid 1px grey;
+    padding-bottom: 30px;  
+    text-align: center;
+    font-size: medium;
+    font-weight: 500;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.last-name{
+    font-size: larger;
+    font-weight: 500;
+    margin-top: 20px;
+    padding-top: 20px;
+}
+#time1{
+    margin-left: 20px;
+    color: rgb(218, 157, 17);
+    width: 30px;
+    font-weight: 800;
+    font-size: 20px;
+    background-color: antiquewhite !important;
+    width: 50px;
+}
+
+
+
+/* making responsive */
+@media only screen and (max-width: 600px) {
+    .first_page{
+        width: 100%;
+        position: absolute;
+        left: 0;
+        padding-left: 20px;
+        
+    }
+    .second_page{
+        width: 100%;
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 0;
+        
+    }
+    .lower #ques-sub{
+        padding: 5px 10px;
+        position: absolute;
+        left: 70%;
+        top: 350px;
+    }
+    .ques{
+        width: 100%;
+        position: absolute;
+        left: 0%;
+        right: 0%;
+        top: 0;
+
+    }
+  }
