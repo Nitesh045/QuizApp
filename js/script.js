@@ -221,18 +221,26 @@ let counter ;
  }
 
  function startTime (time){
+  let minu=0;
   counter = setInterval(timer, 1000);
   function timer(){
-    //timeTaken.innerHTML = time;
-   // console.log(time);
-    time++;
+   
+    if(time==60){
+      minu++
+      time=0
+      
+    }else{
+      time++;
+      
+    }
+    document.getElementById('min').innerHTML=minu
     timeTaken.innerHTML=time;
-    
-
   }
+  
  };
 
  function nextButtonClickHandler(){
+  
  
 console.log(currentQuestionHtmlIndex)
 
